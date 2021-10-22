@@ -89,8 +89,68 @@ img {
   border-top-right-radius: 10px;
 }
 
-@media only screen and (max-width: 425px) {
-  .main {
+@media (max-width: 768px) {
+  body {
+    position: fixed;
     flex-direction: column;
   }
+  .main .container {
+    display: grid;
+    text-align: center;
+    margin-right: 200px;
+  }
+
+  img {
+    width: 50%;
+    margin-left: 100px;
+    border-radius: 5px;
+    place-items: center;
+  }
+
+  .words2 {
+    text-align: center;
+    margin-right: 250px;
+  }
+
+  .head {
+    margin-right: 80px;
+  }
+
+  .nu1 .nu2 .nu3 {
+    display: grid;
+    margin-left: 100px;
+  }
 }
+
+/* @media (max-width: 1100px) {
+  body {
+    position: fixed;
+    flex-direction: column;
+  }
+  .main .container {
+    display: grid;
+    text-align: center;
+    margin-right: 200px;
+  }
+
+  img {
+    width: 50%;
+    margin-left: 100px;
+    border-radius: 5px;
+    place-items: center;
+  }
+
+  .words2 {
+    text-align: center;
+    margin-right: 250px;
+  }
+
+  .head {
+    margin-right: 80px;
+  }
+
+  .nu1 .nu2 .nu3 {
+    display: grid;
+    margin-left: 100px;
+  }
+} */
